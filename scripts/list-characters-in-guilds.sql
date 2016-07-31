@@ -1,8 +1,6 @@
 SELECT 
-  `character`.`ID`, 
   `character`.`Name`, 
-  `character`.`LastName`, 
-  `character`.`GeoID`, 
+  `character`.`LastName`,
   `guilds`.`Name`
 FROM 
   `character`
